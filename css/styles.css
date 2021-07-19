@@ -60,9 +60,15 @@
 
 #twitter-feed{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
+  flex-flow: row wrap;
+}
+
+.twitter-timeline{
+  font-size: 1em;
+
 }
 
 body {
