@@ -63,6 +63,13 @@
 
 }
 
+#news-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
