@@ -58,6 +58,13 @@
   font-family: "century-gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+#twitter-feed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
