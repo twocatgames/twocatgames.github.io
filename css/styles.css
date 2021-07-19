@@ -58,14 +58,6 @@
   font-family: "century-gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-#twitter-feed{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  flex-flow: row wrap;
-}
-
 .twitter-timeline{
   font-size: 1em;
 
@@ -630,6 +622,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  justify-content: space-around;
 }
 
 @media (min-width: 576px) {
